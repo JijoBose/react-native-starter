@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.2.0]
+
+Added Blog page, and single post view, connected to wp rest API
+
+## [3.1.0]
+
+Added dynamic color variable for the drawer, updated themes.
+
+## [3.0.0]
+
+Added brand new Drawer navigation, updated react-navigation.
+
+## [2.2.0]
+
+Added new modern charts, updated libraries, updated legacy lifecycle methods.
+
+## [2.1.1]
+
+General project and dependencies QA
+
 ## [2.1.0]
 
 Bug fixes and libraries update.
