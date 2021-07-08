@@ -2,6 +2,9 @@
   "name": "react-native-starter",
   "version": "2.1.0",
   "private": false,
+  "resolutions": {
+    "deprecated-react-native-listview": "0.0.6"
+  },
   "scripts": {
     "start": "react-native start",
     "test": "jest",
@@ -16,7 +19,9 @@
     "e2e:test": "detox test --configuration ios.sim.debug"
   },
   "dependencies": {
+    "@react-native-community/cli": "^4.10.1",
     "@react-native-community/masked-view": "^0.1.9",
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
     "@react-navigation/bottom-tabs": "^5.2.6",
     "@react-navigation/drawer": "^5.4.1",
     "@react-navigation/native": "^5.1.5",
@@ -27,7 +32,7 @@
     "lodash": "^4.17.13",
     "moment": "^2.24.0",
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "0.63.1",
     "react-native-calendars": "1.265.0",
     "react-native-gesture-handler": "^1.5.0",
     "react-native-gifted-chat": "^0.11.3",
